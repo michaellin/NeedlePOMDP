@@ -53,11 +53,7 @@
 			<Parameter>
 				<Entry>
 					<Instance>a0 s0 s0</Instance>
-					<ProbTable>0.5</ProbTable>
-				</Entry>
-				<Entry>
-					<Instance>a0 s0 s1</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>1.0</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a1 s0 s0</Instance>
@@ -69,15 +65,15 @@
 				</Entry>
 				<Entry>
 					<Instance>a2 s0 s0</Instance>
-					<ProbTable>1.0</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
-					<Instance>a0 s1 s0</Instance>
+					<Instance>a2 s0 s1</Instance>
 					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a0 s1 s1</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>1.0</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a1 s1 s0</Instance>
@@ -88,8 +84,12 @@
 					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
+					<Instance>a2 s1 s0</Instance>
+					<ProbTable>0.5</ProbTable>
+				</Entry>
+				<Entry>
 					<Instance>a2 s1 s1</Instance>
-					<ProbTable>1.0</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 			</Parameter>
 		</CondProb>
@@ -103,11 +103,11 @@
 			<Parameter>
 				<Entry>
 					<Instance>a0 s0 o0</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>0.85</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a0 s0 o1</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>0.15000000000000002</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a1 s0 o0</Instance>
@@ -119,19 +119,19 @@
 				</Entry>
 				<Entry>
 					<Instance>a2 s0 o0</Instance>
-					<ProbTable>0.85</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a2 s0 o1</Instance>
-					<ProbTable>0.15000000000000002</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a0 s1 o0</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>0.15000000000000002</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a0 s1 o1</Instance>
-					<ProbTable>0.5</ProbTable>
+					<ProbTable>0.85</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a1 s1 o0</Instance>
@@ -143,11 +143,11 @@
 				</Entry>
 				<Entry>
 					<Instance>a2 s1 o0</Instance>
-					<ProbTable>0.15000000000000002</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 				<Entry>
 					<Instance>a2 s1 o1</Instance>
-					<ProbTable>0.85</ProbTable>
+					<ProbTable>0.5</ProbTable>
 				</Entry>
 			</Parameter>
 		</CondProb>
@@ -159,27 +159,27 @@
 			<Parameter>
 				<Entry>
 					<Instance>a0 s0</Instance>
-					<ValueTable>-100.0</ValueTable>
+					<ValueTable>-1.0</ValueTable>
 				</Entry>
 				<Entry>
 					<Instance>a1 s0</Instance>
-					<ValueTable>10.0</ValueTable>
-				</Entry>
-				<Entry>
-					<Instance>a2 s0</Instance>
-					<ValueTable>-1.0</ValueTable>
-				</Entry>
-				<Entry>
-					<Instance>a0 s1</Instance>
-					<ValueTable>10.0</ValueTable>
-				</Entry>
-				<Entry>
-					<Instance>a1 s1</Instance>
 					<ValueTable>-100.0</ValueTable>
 				</Entry>
 				<Entry>
-					<Instance>a2 s1</Instance>
+					<Instance>a2 s0</Instance>
+					<ValueTable>10.0</ValueTable>
+				</Entry>
+				<Entry>
+					<Instance>a0 s1</Instance>
 					<ValueTable>-1.0</ValueTable>
+				</Entry>
+				<Entry>
+					<Instance>a1 s1</Instance>
+					<ValueTable>10.0</ValueTable>
+				</Entry>
+				<Entry>
+					<Instance>a2 s1</Instance>
+					<ValueTable>-100.0</ValueTable>
 				</Entry>
 			</Parameter>
 		</Func>
